@@ -1,5 +1,5 @@
 {% set name = "darkdetect" %}
-{% set version = "0.4.0" %}
+{% set version = "0.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ca0750faaf6e43d0a311b67f8fed4ba33b5747877f06337709a4dbb634a515fe
+  sha256: 4199c29f1b7bcf2b63f56e5b986f056594d430de5ce1ae62f1e3b48edf60a272
 
 build:
   noarch: python
